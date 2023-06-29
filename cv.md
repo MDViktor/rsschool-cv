@@ -31,7 +31,7 @@
 - **CSS**
 - **JavaScript (basic)**
 - **Git**
-- **Python**
+- **Python**[^1]
 
 ---
 ## Code example:
@@ -74,3 +74,4 @@ function humanReadable (seconds) {
 
 ---
 ---
+[^1]: studied as a hobby
