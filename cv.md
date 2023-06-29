@@ -74,4 +74,5 @@ function humanReadable (seconds) {
 
 ---
 ---
-[^1]: studied as a hobby
+[^1]: Studied as a hobby
+<!-- it will be deleted after check-->
