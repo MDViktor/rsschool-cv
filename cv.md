@@ -25,3 +25,12 @@
 >the courses at all.
 
 ---
+## Skills:
+
+- **HTML**
+- **CSS**
+- **JavaScript (basic)**
+- **Git**
+- **Python**
+
+---
