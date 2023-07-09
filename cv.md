@@ -53,6 +53,7 @@ function humanReadable (seconds) {
      seconds = seconds - minutes*60 - hours*3600;
      return `${String(hours).padStart(2,0)}:${String(minutes).padStart(2,0)}:${String(seconds).padStart(2,0)}`
    }
+}
 ```
 ---
 ## Experience:
