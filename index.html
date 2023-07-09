@@ -72,9 +72,9 @@
                 console.log(seconds);
                 if (seconds === 0){
                   return '00:00:00'
-                } else if(seconds/60 < 1) {
+                } else if(seconds/60 &lt; 1) {
                   return `00:00:${seconds}`
-                } else if(seconds/60 < 60) {
+                } else if(seconds/60 &lt; 60) {
                   let minutes = Math.floor(seconds/60);
                   seconds = seconds - minutes*60;
                   return `00:${String(minutes).padStart(2,0)}:${String(seconds).padStart(2,0)}`
@@ -91,9 +91,11 @@
       </section>
       <section class="experience">
         <h2 id="experience">Experience:</h2>
-        <ol>Git & Markdown :<a href="https://mdviktor.github.io/rsschool-cv/cv">[CV]</a></ol>
-        <ol>HTML & CSS :<a href="https://rolling-scopes-school.github.io/mdviktor-JSFEPRESCHOOL2022Q2/travel/">[Travel]</a></ol>
-        <ol>JavaScript :<a href="https://rolling-scopes-school.github.io/mdviktor-JSFEPRESCHOOL2022Q2/momentum/">[Momentum]</a>,<a href="https://mdviktor.github.io/eldritch-codejam/data/">[Eldritch]</a></ol>
+        <ol>
+          <li>Git & Markdown :<a href="https://mdviktor.github.io/rsschool-cv/cv">[CV]</a></li>
+          <li>HTML & CSS :<a href="https://rolling-scopes-school.github.io/mdviktor-JSFEPRESCHOOL2022Q2/travel/">[Travel]</a></li>
+          <li>JavaScript :<a href="https://rolling-scopes-school.github.io/mdviktor-JSFEPRESCHOOL2022Q2/momentum/">[Momentum]</a>,<a href="https://mdviktor.github.io/eldritch-codejam/data/">[Eldritch]</a></li>
+        </ol>
       </section>
       <section class="education">
         <h2 id="education">Education:</h2>
