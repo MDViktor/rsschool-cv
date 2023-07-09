@@ -8,7 +8,7 @@
 - GitHUB: _[MDViktor](https://github.com/MDViktor)_
 - Discord: **_Viktor_ \ (@MDViktor) \ _viktorred_**
 - ![](https://icons.iconarchive.com/icons/cornmanthe3rd/metronome/16/Communication-email-blue-icon.png) E-mail: _milliondollarboymvd@gmail.com_
-- :iphone: tel. _+79788539557_
+- :iphone: tel.: _+79788539557_
 
 ---
 ---
@@ -53,6 +53,7 @@ function humanReadable (seconds) {
      seconds = seconds - minutes*60 - hours*3600;
      return `${String(hours).padStart(2,0)}:${String(minutes).padStart(2,0)}:${String(seconds).padStart(2,0)}`
    }
+}
 ```
 ---
 ## Experience:
