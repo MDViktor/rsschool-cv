@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="assets/favicon.ico">
+</head>
+<body>
+  <header>
+    <div class="header_container">
+      <nav>
+        <ul class="nav_list">
+          <li><a class="nav_link" href="#contacts">Contacts</a></li>
+          <li><a class="nav_link" href="#key_competencies">Key competencies</a></li>
+          <li><a class="nav_link" href="#skills">Skills</a></li>
+          <li><a class="nav_link" href="#code_example">Code example</a></li>
+          <li><a class="nav_link" href="#experience">Experience</a></li>
+          <li><a class="nav_link" href="#education">Education</a></li>
+          <li><a class="nav_link" href="#english">English</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="main_container">
+      <div class="first_line_container">
+        <section class="profile">
+          <img class="photo" src="./assets/img/photo.png" alt="photo.png">
+          <div class="cv_name">
+            <h1 id="profile">Morozov Viktor</h1>
+            <h3>Junior Front-end developer</h3>
+          </div>
+        </section>
+        <section class="contacts">
+          <h2 id="contacts">Contacts:</h2>
+          <ul class="contacts_list">
+            <li class="contacts_item">GitHUB: <a title="gitHUB" href="https://github.com/MDViktor">MDViktor</a></li>
+            <li class="contacts_item">Discord: <a href="https://discordapp.com/users/407582876146728979/">#viktorred</a></li>
+            <li class="contacts_item">E-mail: <a title="e-mail" href="milliondollarboymvd@gmail.com">milliondollarboymvd@gmail.com</a></li>
+            <li class="contacts_item">tel.: +79788539557</li>
+          </ul>
+        </section>
+      </div>
+      <section class="key_competencies">
+        <h2 id="key_competencies">Key competencies:</h2>
+        <div>The desire that everything obeys logic motivates me to create, to act.
+          I love getting to the bottom of the truth.
+          I love mathematics, but for education I went to economics.
+          I want to fix this by becoming a programmer.
+          Today I am a printing press operator in a printing house,
+          which gives me a good help for typesetting.
+          I'm used to getting things done, that's why I am graduated
+          from JS/FE Pre-school and I'm going to finish the rest of
+          the courses at all.</div>
+      </section>
+      <section class="skills">
+        <h2 id="skills">Skills:</h2>
+        <ul class="skills">
+         <li>HTML</li>
+         <li>CSS</li>
+         <li>JavaScript (basic)</li>
+         <li>Git</li>
+         <li>Python</li>
+        </ul>
+      </section>
+      <section class="code_example">
+        <h2 id="code_example">Code example:</h2>
+        <div>
+          <pre>
+            <code>
+              function humanReadable (seconds) {
+                console.log(seconds);
+                if (seconds === 0){
+                  return '00:00:00'
+                } else if(seconds/60 &lt; 1) {
+                  return `00:00:${seconds}`
+                } else if(seconds/60 &lt; 60) {
+                  let minutes = Math.floor(seconds/60);
+                  seconds = seconds - minutes*60;
+                  return `00:${String(minutes).padStart(2,0)}:${String(seconds).padStart(2,0)}`
+                } else if (seconds/60 >= 60){
+                  let hours = Math.floor(seconds/3600)
+                  let minutes = Math.floor(seconds/60) - hours*60;
+                  seconds = seconds - minutes*60 - hours*3600;
+                  return `${String(hours).padStart(2,0)}:${String(minutes).padStart(2,0)}:${String(seconds).padStart(2,0)}`
+                }
+              }
+            </code>
+          </pre>
+        </div>
+      </section>
+      <section class="experience">
+        <h2 id="experience">Experience:</h2>
+        <ol>
+          <li>Git & Markdown :<a href="https://mdviktor.github.io/rsschool-cv/cv"> CV</a></li>
+          <li>HTML & CSS :<a href="https://rolling-scopes-school.github.io/mdviktor-JSFEPRESCHOOL2022Q2/travel/"> Travel</a></li>
+          <li>JavaScript :<a href="https://rolling-scopes-school.github.io/mdviktor-JSFEPRESCHOOL2022Q2/momentum/"> Momentum</a>,<a href="https://mdviktor.github.io/eldritch-codejam/data/"> Eldritch</a></li>
+        </ol>
+      </section>
+      <section class="education">
+        <h2 id="education">Education:</h2>
+        <ul>
+          <li>Donetsk National Univercity of Ukraine
+            <ul>
+              <li>Faculty of Economics, the Management of Organizations, master</li>
+            </ul>
+          </li>
+          <li>Rolling Scopes School
+            <ul>
+              <li>Java Script/Front-end development (in process..)</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section class="english">
+        <h2 id="english">English:</h2>
+        <p>B1 Pre-Intermediate</p>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <div class="footer_container">
+      <p><a class="footer__github" href="https://github.com/MDViktor" target="_blank">My GitHub</a></p>
+      <p>2023</p>
+      <p class="rs_logo"><a href="https://rs.school/js/" target="_blank"><img src="./assets/img/logo-rsschool3.png" alt="logo_rs_school"  width="83"></a></p>
+    </div>
+  </footer>
+</body>
+</html>
