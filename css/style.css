@@ -2,6 +2,45 @@
   box-sizing: border-box;
 }
 
+/* @keyframes moving_line {
+  20%{
+    border-top: 2px solid white;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    border-radius: 5px;
+  }
+
+  40%{
+    border-top: none;
+    border-right: 2px solid white;
+    border-bottom: none;
+    border-left: none;
+    border-radius: 5px;
+  }
+
+  60%{
+    border-top: none;
+    border-right: none;
+    border-bottom: 2px solid white;
+    border-left: none;
+    border-radius: 5px;
+  }
+
+  80%{
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left: 2px solid white;
+    border-radius: 5px;
+  }
+
+  /* 100%{
+    border-top: 2px solid white;
+    border-radius: 5px;
+  } */
+} */
+
 body {
   display: flex;
   flex-direction: column;
@@ -128,10 +167,17 @@ h2{
   border-radius: 0px 0px 0px 15px;
 }
 .contacts_list a{
+  padding: 3px;
   text-decoration: none;
   color: black;
   font-weight: bold;
   font-style: normal;
+}
+
+.contacts_list a:hover{
+  /* animation: moving_line 2s infinite; */
+  color: white;
+  transition: 0.3s;
 }
 
 .key_competencies{
